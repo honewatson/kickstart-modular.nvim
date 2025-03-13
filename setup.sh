@@ -24,8 +24,12 @@ aider-install
 ssh-keygen
 git clone https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 git clone https://github.com/honewatson/kickstart-modular.nvim.git ~/.config/nvim
-nvim
+nvim +Lazy +qall
 cd ~/.config/nvim
 cp zshrc ~/.zshrc
 cp .pk10k.zsh ~/.pk10.zsh
-
+cd ~/.local/share/fonts/
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
+wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
