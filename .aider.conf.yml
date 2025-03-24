@@ -1,0 +1,18 @@
+# Aider global configuration
+
+# Model settings
+model: openrouter/openai/o3-mini-high
+map-tokens: 2048
+
+# Editor settings
+auto-commits: true
+
+# Other preferences
+# stream: true
+dark-mode: true
+pretty: true
+code-theme: monokai
+edit-format: udiff
+editor-edit-format: udiff
+editor-model: anthropic/claude-3-7-sonnet-latest
+yes-always: true
